@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #27251a;
+}
+
+.buttondiv {
+  /* A great way to center someting in the middle of your page*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+button {
+  background-color: #141414;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  box-shadow: 10px 10px 15px black;
+  border: none;
+}
+
+button:hover {
+  background-color: #2b2b2b;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  box-shadow: 10px 10px 15px black;
+}
+
+p {
+  color: white;
+  font-size: 2rem;
+  transition: opacity 2s ease-in-out 2s;
+  opacity: 1;
+}
+
+p {
+  color: blue;
+  font-size: 2rem;
+}
